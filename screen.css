@@ -1,4 +1,80 @@
 /* Add screen styles below */
+
+/*
 a.active {
     font-weight: bold;
+}
+*/
+
+li {
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 25%;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+}
+
+.rounded-circle {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.card-title {
+    margin-right: 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.card button {
+    width: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+    background-color: #CCCCCC;
+    border: none;
+}
+
+.bi-heart {
+    margin-left: auto;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.card-body p svg {
+    margin-left: 10px;
+}
+
+.card-body p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bi-eye {
+    margin-left: 10px;
+    margin-right: 2px;
 }
